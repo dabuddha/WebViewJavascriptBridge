@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26D6A4162434812B0091A77F /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C85D0031E12D13E00B5BB1F /* echo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = echo.html; sourceTree = "<group>"; };
 		2CF20A951E12BB3F00D3009D /* ExampleSwiftApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExampleSwiftApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF20A981E12BB3F00D3009D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 		6303D0CF3CEDE121D7B2EAE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				26D6A4162434812B0091A77F /* WebViewJavascriptBridge.framework */,
 				BEA6EDCA550904DB02B48E33 /* Pods_ExampleSwiftApp_iOS.framework */,
 				F83CA56A2551209150BE3026 /* Pods_ExampleSwiftApp_iOSTests.framework */,
 			);
@@ -192,6 +194,7 @@
 					};
 					2CF20AA81E12BB3F00D3009D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C8YQLLUJ48;
 						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2CF20A941E12BB3F00D3009D;
@@ -491,6 +494,7 @@
 			baseConfigurationReference = 540FA2D8150D626B9E77FAB0 /* Pods-ExampleSwiftApp-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C8YQLLUJ48;
 				INFOPLIST_FILE = "ExampleSwiftApp-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.marcuswest.ExampleSwiftApp-iOSTests";
@@ -506,6 +510,7 @@
 			baseConfigurationReference = 428486AD61C115757F5B2D0E /* Pods-ExampleSwiftApp-iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C8YQLLUJ48;
 				INFOPLIST_FILE = "ExampleSwiftApp-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "in.marcuswest.ExampleSwiftApp-iOSTests";
