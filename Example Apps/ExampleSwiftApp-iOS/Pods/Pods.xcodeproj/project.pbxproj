@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CAF87465913BE2E7189610B2E67BAF9 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F76E05DE63C1B7F65442D4E5FB453C /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		309E46C4E43B51B83C0C689029FE7397 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1C66015D112B8267FA13179C42553B /* UIKit.framework */; };
 		3F31ED2AA62B75F318DD67C435F6193D /* Pods-ExampleSwiftApp-iOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A10094E1F33326E415967747EAAD95 /* Pods-ExampleSwiftApp-iOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48280D1F369E0E2D4773DF806C755A0F /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E50118433D6C384F14BE158AB8C1F /* WebViewJavascriptBridge-dummy.m */; };
@@ -16,7 +15,6 @@
 		73431D88D3AB4E76FDDBBCF9F242C924 /* Pods-ExampleSwiftApp-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0092B18190301442B852BB84E827FDF7 /* Pods-ExampleSwiftApp-iOS-dummy.m */; };
 		73655D7340126BC80A3D85F0998A383F /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CC32DCEC0B4660A70A54B28B6B428C18 /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		836829201E1F4D86E9F317F897F14905 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FF03224CBD3E54A1F1849A18706DA6 /* WebKit.framework */; };
-		87F304DF71AD3AE7346BB6F9FB3D5212 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 050C3A5A76106E352648B307F008AE71 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8C79D8E72F0F62338896B97FB46AB774 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E2124639657C4BFD313F7B4D872649 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		90A0CC5C2AEF82F622F4549F9A9AD0F8 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7F20614B778BCD569C388FC819226 /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		94DEE3F8689020EC704A9EF158BD78E6 /* WebViewJavascriptBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF53630CA73F32FBE7FB21A943404396 /* WebViewJavascriptBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,32 +54,30 @@
 		0092B18190301442B852BB84E827FDF7 /* Pods-ExampleSwiftApp-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleSwiftApp-iOS-dummy.m"; sourceTree = "<group>"; };
 		03597E43B074C6B431AA0E0873AAAFAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0393B8E873E15B36CF148B41389108F2 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		050C3A5A76106E352648B307F008AE71 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		0B0E50118433D6C384F14BE158AB8C1F /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
 		1E1A7D9F8860165FFB0576E2ABD589F4 /* Pods-ExampleSwiftApp-iOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleSwiftApp-iOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		247ABD4DA2E9EF027EC0814A851F3162 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
-		2964BAA258BE7FA8C4C8F54DE5A55539 /* Pods_ExampleSwiftApp_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleSwiftApp_iOS.framework; path = "Pods-ExampleSwiftApp-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2964BAA258BE7FA8C4C8F54DE5A55539 /* Pods_ExampleSwiftApp_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleSwiftApp_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		338852AE28B83DC20CD57E973FB3F7D9 /* Pods-ExampleSwiftApp-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleSwiftApp-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		344432B50F9C3A1FCA075999A18911A7 /* Pods-ExampleSwiftApp-iOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleSwiftApp-iOSTests.modulemap"; sourceTree = "<group>"; };
 		38E12F555AEB10AD91ED2EB41A46F1C2 /* Pods-ExampleSwiftApp-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleSwiftApp-iOS.modulemap"; sourceTree = "<group>"; };
-		41F76E05DE63C1B7F65442D4E5FB453C /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		4EB256852133584189DF2733C24DA866 /* Pods-ExampleSwiftApp-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleSwiftApp-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		59DAC78006E3934D96B42380FF63E244 /* Pods-ExampleSwiftApp-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleSwiftApp-iOS-frameworks.sh"; sourceTree = "<group>"; };
 		5AA7F20614B778BCD569C388FC819226 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		6188332033A661926D1EA86C257C64C3 /* WebViewJavascriptBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WebViewJavascriptBridge-Info.plist"; sourceTree = "<group>"; };
-		68558FDB9B70028A4B446DEA37888E5B /* WebViewJavascriptBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WebViewJavascriptBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68558FDB9B70028A4B446DEA37888E5B /* WebViewJavascriptBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WebViewJavascriptBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		70FF03224CBD3E54A1F1849A18706DA6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		78DE5B7948F1F3A3C93F55EB5EF08E17 /* WebViewJavascriptBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.release.xcconfig; sourceTree = "<group>"; };
 		84EF98AF5239A11773FE91B2C3F7E331 /* Pods-ExampleSwiftApp-iOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleSwiftApp-iOSTests-Info.plist"; sourceTree = "<group>"; };
-		8EB68B7943515E4F13CC6BE690FFD564 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebViewJavascriptBridge.framework; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB68B7943515E4F13CC6BE690FFD564 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		929BF268610DC2869EBD0AD585416FFF /* Pods-ExampleSwiftApp-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleSwiftApp-iOS-umbrella.h"; sourceTree = "<group>"; };
 		995A84917F085AD7BE2D6B7ACC0E0845 /* Pods-ExampleSwiftApp-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleSwiftApp-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1E2124639657C4BFD313F7B4D872649 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
-		A660E3BBB4943DBF0889830D41894A73 /* Pods_ExampleSwiftApp_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleSwiftApp_iOSTests.framework; path = "Pods-ExampleSwiftApp-iOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A660E3BBB4943DBF0889830D41894A73 /* Pods_ExampleSwiftApp_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleSwiftApp_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A7C36EE34A12833EAB82AB7518B592 /* Pods-ExampleSwiftApp-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleSwiftApp-iOS-Info.plist"; sourceTree = "<group>"; };
 		BA1C66015D112B8267FA13179C42553B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BB1DB43520706E59BED8259DBEA3E43D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BB1DB43520706E59BED8259DBEA3E43D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C040419EFBAAEA9E72DAEC699268F47B /* WebViewJavascriptBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.debug.xcconfig; sourceTree = "<group>"; };
 		C3A514D0359251C07997BA6BC45AD3A5 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		C62CCDA936452F1224EA584F02098516 /* Pods-ExampleSwiftApp-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleSwiftApp-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,7 +91,7 @@
 		E69E307AD3009C01E2A41C6CEA50246C /* Pods-ExampleSwiftApp-iOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleSwiftApp-iOSTests-dummy.m"; sourceTree = "<group>"; };
 		EE130E87BE16C53E9448B57637EDF75F /* WebViewJavascriptBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WebViewJavascriptBridge.modulemap; sourceTree = "<group>"; };
 		F2761CEFB1DEAB4F62DDE290E22CA5B1 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		F71EC1250F7C99CF8F04E9F293294E94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F71EC1250F7C99CF8F04E9F293294E94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,8 +204,6 @@
 		BBA3D8B05D5C738AE47C271B356947C2 /* WebViewJavascriptBridge */ = {
 			isa = PBXGroup;
 			children = (
-				41F76E05DE63C1B7F65442D4E5FB453C /* WebViewJavascriptBridge.h */,
-				050C3A5A76106E352648B307F008AE71 /* WebViewJavascriptBridge.m */,
 				A1E2124639657C4BFD313F7B4D872649 /* WebViewJavascriptBridge_JS.h */,
 				5AA7F20614B778BCD569C388FC819226 /* WebViewJavascriptBridge_JS.m */,
 				0393B8E873E15B36CF148B41389108F2 /* WebViewJavascriptBridgeBase.h */,
@@ -277,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				94DEE3F8689020EC704A9EF158BD78E6 /* WebViewJavascriptBridge-umbrella.h in Headers */,
-				1CAF87465913BE2E7189610B2E67BAF9 /* WebViewJavascriptBridge.h in Headers */,
 				8C79D8E72F0F62338896B97FB46AB774 /* WebViewJavascriptBridge_JS.h in Headers */,
 				AB45F539BD72685332677DD4F0780F37 /* WebViewJavascriptBridgeBase.h in Headers */,
 				E3CE2AE62D771986CB38F519E651A1F2 /* WKWebViewJavascriptBridge.h in Headers */,
@@ -419,7 +412,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48280D1F369E0E2D4773DF806C755A0F /* WebViewJavascriptBridge-dummy.m in Sources */,
-				87F304DF71AD3AE7346BB6F9FB3D5212 /* WebViewJavascriptBridge.m in Sources */,
 				90A0CC5C2AEF82F622F4549F9A9AD0F8 /* WebViewJavascriptBridge_JS.m in Sources */,
 				98BFDD23175235CAD93E052C3EA17971 /* WebViewJavascriptBridgeBase.m in Sources */,
 				73655D7340126BC80A3D85F0998A383F /* WKWebViewJavascriptBridge.m in Sources */,
@@ -610,8 +602,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
